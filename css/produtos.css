@@ -5,7 +5,7 @@ header {
 }
 
 main{
-	background:url('fundoIcones.png');
+	background:url('../images/fundoIcones.png');
 	min-height: 480px;
 }
 
@@ -101,7 +101,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: url("bg.jpg");
+	background: url("../images/bg.jpg");
 	padding: 40px 0;
 }
 
