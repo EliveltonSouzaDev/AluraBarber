@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Contato - Barbearia Alura</title>
+
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+	<header>
+		<div class="caixa">
+			<a href="index.html"><img src="logo-branco.png" alt="logo da barbearia alura"></a>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<form class="formulario">
+
+			<fieldset>
+			<label for="nomesobrenome">Nome e Sobrenome</label>
+			<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+			<label for="email">Email</label>
+			<input type="email" id="email" class="input-padrao" required placeholder="seumail@dominio.com">
+
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxx-xxxx">
+			<label for="mensagem">Mensagem</label>
+			<textarea name="" id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
+			</fieldset>
+
+			<fieldset>
+				<legend>Como prefere o nosso contato?</legend>
+
+				<label for="radio-email"><input type="radio" name="contato" id="radio-email" class="checkbox"> Email</label>
+
+				<label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone" class="checkbox"> Telefone</label>
+
+				<label for="radio-Whatsapp"><input type="radio" name="contato" id="radio-Whatsapp" class="checkbox"> Whatsapp</label>
+			</fieldset>
+
+			<section>
+			<label for=""><input type="checkbox" name="" id="">Gostaria de receber nossas novidader por email?
+			</label>
+			
+			<div class="horario">
+			<label>Qual horário prefere ser atendido</label>
+			<select name="" id="">
+				<option value="">Manhã</option>
+				<option value="">Tarde</option>
+				<option value="">Noite</option>
+			</select>
+			</div>
+			<input type="submit" value="Enviar formulário" class="enviar">
+		</div>
+
+		<table>
+			<thead>
+			<tr>
+				<th>Dia</th>
+				<th>Horário</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Segunda</td>
+				<td>08 ~ 20h</td>
+			</tr>
+			<tr>
+				<td>Quarta</td>
+				<td>08 ~ 20h</td>
+			</tr>
+			<tr>
+				<td>Sexta</td>
+				<td>08 ~ 20h</td>
+			</tr>
+		</tbody>
+		</table>
+
+	</form>
+
+
+	</main>
+
+
+
+	<footer>
+		<img src="logo-branco.png" alt=" logo da barbearia alura">
+		<p class="copyright">&copy; Copyright Barbearia Alura - 2021</p>
+	</footer>
+</body>
+
+</html>

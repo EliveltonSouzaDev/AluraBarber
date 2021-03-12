@@ -1,0 +1,158 @@
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: url('fundoIcones.png');
+}
+	
+	
+	header {
+		background: #191B1A;
+		padding: 0;
+	}
+	main{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.caixa {
+		position: relative;
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	img{
+		height: 150px;
+		filter: contrast(110%);}
+	
+	
+	nav {
+		position: absolute;
+		top: 50%;
+		right: 0;
+	}
+	
+	nav ul {
+		margin: 0 auto;
+	}
+	
+	
+	nav li {
+		display: inline;
+		margin: 0 0 0 15px;
+	}
+	
+	nav a {
+		text-transform: uppercase;
+		color: #ffff;
+		font-weight: bold;
+		font-size: 20px;
+		text-decoration: none;
+	}
+	
+	nav a:hover {
+		color: #C78C19;
+		text-decoration: underline;
+	}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #C78C19;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+main{
+	width: 80%;
+	margin: 0 auto;
+}
+
+form{
+	margin: 2% 0 5% 25%;
+	font-size: 20px;
+	width:50%;
+	background-color: white;
+}
+
+form label, form legend{
+	display: block;
+	margin: 5% 0 10px 5%;
+	font-size: 20px;
+}
+select{
+	margin: 1% 0 0 5%;
+}
+
+.input-padrao {
+	display: block;
+	padding: 10px 25px;
+	margin:15px auto;
+	width:80%;
+
+}
+
+.checkbox{
+	margin: 10px auto;
+	
+}
+
+.container{
+	margin: 0 20%;
+}
+
+.horario{
+	margin: 15px auto ;
+
+}
+
+label {
+	width: 100%;
+	margin: 5% auto auto 20%;
+}
+
+fieldset {
+}
+
+.enviar{
+	width: 60%;
+	padding: 10px 0;
+	background:#C78C19;
+	font-weight: bold;
+	font-size: 18px;
+	border:none;
+	border-radius: 3px;
+	transition: 1s all;
+	cursor: pointer;
+	margin: 3% 0  4% 20%;
+}
+
+.enviar:hover{
+	background:darkorange;
+	transform: scale(1.2);
+
+}
+
+table{
+	margin: 2% auto;
+	padding:10px;
+}
+
+thead{
+	background:#555555;
+	color:white;
+	font-weight: bold;
+}
+
+td, th{
+	border:1px solid black;
+	padding:8px 15px;
+}
+
+tbody{
+	margin: 10px;
+}
+
+
